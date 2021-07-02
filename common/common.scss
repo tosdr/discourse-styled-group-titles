@@ -75,7 +75,8 @@
     color: #212529 !important;
     background-color: #ffc107;
 }
-.user-group[data-group-card="curators"] {
+.user-group[data-group-card="curators"],
+.user-group[data-group-card="selectedcurators"]{
     display: inline-block;
     padding: .25em .4em;
     font-size: 85%;
