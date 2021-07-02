@@ -116,6 +116,20 @@
     background-color: #17a2b8;
 }
 
+.user-group[data-group-card="guest"] {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #fff !important;
+    background-color: #6c757d;
+}
+
 
 .user-group[data-group-card="Matrix"] {
     display: inline-block;
